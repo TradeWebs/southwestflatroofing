@@ -166,7 +166,7 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.1; letter-spacing: -0
 
 /* ── Reviews ── */
 .reviews-strip {
-  display: flex; gap: 1.25rem; overflow-x: auto; padding-bottom: 0.5rem;
+  display: flex; align-items: flex-start; gap: 1.25rem; overflow-x: auto; padding-bottom: 0.5rem;
   scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch;
 }
 .review-card {
