@@ -164,6 +164,21 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.1; letter-spacing: -0
 .section--navy .section__title { color: var(--clr-white); }
 .section--navy .section__sub { color: var(--clr-text-light); }
 
+/* ── Reviews ── */
+.reviews-strip {
+  display: flex; gap: 1.25rem; overflow-x: auto; padding-bottom: 0.5rem;
+  scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch;
+}
+.review-card {
+  flex: 0 0 300px; scroll-snap-align: start;
+  background: var(--clr-white); border: 1px solid var(--clr-border);
+  border-radius: var(--radius); padding: 1.5rem;
+}
+.review-card__stars { color: #e8a83c; font-size: 1.05rem; letter-spacing: 0.1em; margin-bottom: 0.75rem; }
+.review-card__quote { color: var(--clr-text); font-size: 0.98rem; line-height: 1.6; margin-bottom: 1rem; }
+.review-card__author { font-weight: 700; font-size: 0.92rem; color: var(--clr-navy); }
+.review-card__author span { font-weight: 400; color: var(--clr-text-muted); }
+
 /* ── Services (list with red accent, not TradeWebs cards) ── */
 .services {
   display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem 2.5rem;
