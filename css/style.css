@@ -66,7 +66,7 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.1; letter-spacing: -0
   border-bottom: 1px solid var(--clr-border);
 }
 .nav__inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-top: 0.7rem; padding-bottom: 1rem; }
-.nav__logo-img { width: 150px; height: auto; }
+.nav__logo-img { width: 195px; height: auto; }
 .nav__links { display: flex; gap: 1.75rem; }
 .nav__links a {
   color: var(--clr-text); text-decoration: none; font-weight: 600; font-size: 0.98rem;
@@ -339,7 +339,7 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.1; letter-spacing: -0
 }
 @media (max-width: 480px) {
   .gallery { grid-template-columns: 1fr; }
-  .nav__logo-img { width: 110px; }
+  .nav__logo-img { width: 140px; }
   .nav__phone { font-size: 0; gap: 0; padding: 0.7rem; }
   .nav__phone svg { width: 20px; height: 20px; }
   .hero__actions .btn { width: 100%; }
