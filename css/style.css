@@ -65,7 +65,7 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.1; letter-spacing: -0
   border-top: 3px solid var(--clr-red);
   border-bottom: 1px solid var(--clr-border);
 }
-.nav__inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-top: 0.6rem; padding-bottom: 0.6rem; }
+.nav__inner { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding-top: 0.7rem; padding-bottom: 1rem; }
 .nav__logo-img { width: 150px; height: auto; }
 .nav__links { display: flex; gap: 1.75rem; }
 .nav__links a {
