@@ -178,6 +178,16 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.1; letter-spacing: -0
 .review-card__quote { color: var(--clr-text); font-size: 0.98rem; line-height: 1.6; margin-bottom: 1rem; }
 .review-card__author { font-weight: 700; font-size: 0.92rem; color: var(--clr-navy); }
 .review-card__author span { font-weight: 400; color: var(--clr-text-muted); }
+.reviews-badge {
+  display: inline-flex; align-items: center; gap: 0.6rem; margin-top: 1.1rem;
+  padding: 0.6rem 1.05rem; background: var(--clr-white);
+  border: 1px solid var(--clr-border); border-radius: var(--radius); box-shadow: var(--shadow);
+  text-decoration: none; color: var(--clr-text); font-size: 0.95rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.reviews-badge:hover { transform: translateY(-2px); box-shadow: 0 10px 32px rgba(16, 42, 58, 0.18); }
+.reviews-badge__stars { color: #e8a83c; font-size: 1.1rem; letter-spacing: 0.06em; flex-shrink: 0; }
+.reviews-badge__text strong { color: var(--clr-navy); font-family: var(--font-head); }
 
 /* ── Services (list with red accent, not TradeWebs cards) ── */
 .services {
