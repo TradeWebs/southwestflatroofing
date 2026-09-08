@@ -355,3 +355,40 @@ h1, h2, h3 { font-family: var(--font-head); line-height: 1.1; letter-spacing: -0
   .hero__actions .btn { width: 100%; }
   .mobile-cta .btn { font-size: 0.78rem; padding: 0.8rem 0.3rem; }
 }
+
+/* ── Subpage rich content (area & service pages) ── */
+.subpage-content h2 {
+  font-family: 'Archivo', system-ui, sans-serif;
+  font-size: 1.35rem; font-weight: 700; color: var(--clr-navy);
+  margin: 2.25rem 0 0.85rem; line-height: 1.3;
+}
+.subpage-content h2:first-child { margin-top: 0; }
+.subpage-content h3 {
+  font-family: 'Archivo', system-ui, sans-serif;
+  font-size: 1.05rem; font-weight: 700; color: var(--clr-navy);
+  margin: 1.6rem 0 0.5rem; line-height: 1.4;
+}
+.subpage-content h3 + p { margin-bottom: 1.25rem; }
+.subpage-content ul {
+  list-style: none; padding: 0; margin: 0 0 1.5rem;
+}
+.subpage-content ul li {
+  position: relative; padding-left: 1.6rem; margin-bottom: 0.6rem;
+  color: var(--clr-text-muted); font-size: 1.05rem; line-height: 1.6;
+}
+.subpage-content ul li::before {
+  content: ''; position: absolute; left: 0; top: 0.55em;
+  width: 8px; height: 8px; border-radius: 2px; background: var(--clr-red);
+}
+.subpage-content ul li a { color: var(--clr-navy); font-weight: 600; }
+.subpage-content ul li a:hover { color: var(--clr-red); }
+.subpage-content .area-postcodes {
+  background: var(--clr-white); border-left: 4px solid var(--clr-red);
+  border-radius: 0 6px 6px 0; padding: 0.9rem 1.2rem;
+  font-size: 0.98rem; margin: 1.5rem 0 0;
+}
+.subpage-content .area-postcodes strong { color: var(--clr-navy); }
+@media (max-width: 640px) {
+  .subpage-content h2 { font-size: 1.2rem; margin-top: 1.9rem; }
+  .subpage-content ul li { font-size: 1rem; }
+}
